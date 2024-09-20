@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    size: 300px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#camera {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#photo-preview {
+    display: block;
+    margin-top: 10px;
+    max-height: 300px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#map, #modal-map {
+    height: 300px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.table {
+    margin-top: 20px;
+}
+
+.table th, .table td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.btn {
+    margin-right: 5px;
+}
+
+.modal .modal-header {
+    background-color: #007bff;
+    color: white;
+}
+
+.modal .modal-footer .btn-secondary {
+    background-color: #6c757d;
+}
+
+.modal .modal-footer .btn-danger {
+    background-color: #dc3545;
+}
+
+.modal-body img {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    max-width: 100%;
+}
+
+.alert {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    #map, #modal-map {
+        height: 200px;
+    }
+
+    #camera, #photo-preview {
+        max-height: 200px;
+    }
+}

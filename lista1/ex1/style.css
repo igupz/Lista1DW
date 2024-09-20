@@ -1,0 +1,87 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+    padding-left: 100px;
+}
+
+.logo {
+    color: white;
+    text-decoration: none;
+    padding-left: 100px;
+}
+
+#menu ul {
+    display: flex;
+    list-style-type: none;
+    margin: 20px;
+    padding-right: 330px;
+    
+}
+
+.menu-item {
+    margin-left: 20px;
+    padding-left: 40px;
+}
+
+.menu-link {
+    color: white;
+    text-decoration: none;
+}
+
+.jumbotron {
+    background-color: #f8f9fa;
+    padding: 20px;
+    padding-left: 30px;
+    
+    
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    
+    
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    
+    
+   
+}
+
+.linha {
+    display: flex; /* Flex para organização interna */
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 50px;
+    margin-left: 40px;
+}
+
+.coluna {
+    background-color: #e9ecef;
+    padding: 15px;
+    border-radius: 5px;
+    margin-left: 170px;
+    
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+   margin-top: 160px;
+}
